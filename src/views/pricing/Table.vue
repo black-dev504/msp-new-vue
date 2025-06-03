@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="bg-[#355DD80D] md:px-6 py-[18px] border-y-1 border-[#355DD8]">
-      <div class="flex justify-between w-full">
+      <div class="flex items-center justify-between w-full">
         <h1 class="font-heading text-[18px]">{{ head }}</h1>
         <button
           :class="[
-            'transition-transform bg-white cursor-pointer duration-700',
+            'transition-transform bg-white cursor-pointer rounded-[40px] p-1 duration-500',
             isToggled && 'rotate-[180deg]',
           ]"
           @click="handleToggle"
