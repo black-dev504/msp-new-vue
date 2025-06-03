@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:w-[75%] mx-auto bg-[#4265D2] rounded-[20px] relative">
+  <div class="lg:w-[80%] mx-auto bg-[#4265D2] rounded-[20px] relative">
     <div class="items-center text-center py-17 md:px-8">
       <h1 class="font-heading font-normal text-white text-[32px]">{{ head }}</h1>
       <p class="text-[#E9D7FE] font-normal text-[18px] mt-4">{{ desc }}</p>

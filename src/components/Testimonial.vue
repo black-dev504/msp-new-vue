@@ -50,5 +50,22 @@ export default {
       reviewDetails,
     }
   },
+
+  Mounted() {
+    let scrollAmount = 0
+
+    scrollInterval = setInterval(() => {
+      const container = scrollContainer.value
+      if (!container) return
+
+      scrollAmount += 1
+      container.scrollLeft = scrollAmount
+
+      if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
+        scrollAmount = 0
+        container.scrollLeft = 0
+      }
+    }, 30)
+  },
 }
 </script>

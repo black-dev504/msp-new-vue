@@ -218,8 +218,8 @@ const plansData = [
 
 const featureData = [
   {
-    heading: 'Core administration',
-    titles: [
+    head: 'Core administration',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -272,8 +272,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'Academics',
-    titles: [
+    head: 'Academics',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -281,8 +281,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'Communications & Engagement',
-    titles: [
+    head: 'Communications & Engagement',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -290,8 +290,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'Medical and Health',
-    titles: [
+    head: 'Medical and Health',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -299,8 +299,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'Descipline &behaviour',
-    titles: [
+    head: 'Descipline &behaviour',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -308,8 +308,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'LMS',
-    titles: [
+    head: 'LMS',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -317,8 +317,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'Analytics, Forms & Reporting',
-    titles: [
+    head: 'Analytics, Forms & Reporting',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -326,8 +326,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'Staff Management',
-    titles: [
+    head: 'Staff Management',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -335,8 +335,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'Fees Payement Management',
-    titles: [
+    head: 'Fees Payement Management',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
@@ -344,8 +344,8 @@ const featureData = [
     ],
   },
   {
-    heading: 'External Plugin',
-    titles: [
+    head: 'External Plugin',
+    lists: [
       {
         title: 'Onboarding',
         marks: ['✔️', '✔️', '✔️'],
