@@ -1,0 +1,41 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
+@theme{
+    --hero-blue: #4265D2;
+    --primary-blue: #1C3FAA;
+    --paragrah-font: 'Hanken Grotesk', sans-serif;
+    --heading-font: 'Aclonica', sans-serif;
+    --heading-color: #101828;
+    --paragraph-color: #596780;
+}
+
+.bg-hero {
+    background-color: var(--hero-blue);
+}
+.bg-primary {
+    background-color: var(--primary-blue);
+}
+
+.font-paragraph {
+    font-family: var(--paragrah-font);
+}
+
+.font-heading {
+        font-family: var(--heading-font);
+        font-weight: 400;
+    
+      
+}
+
+/* Hide scrollbar */
+.scrollbar-hidden {
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
