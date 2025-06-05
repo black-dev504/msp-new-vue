@@ -18,12 +18,26 @@
         <ul
           class="hidden lg:flex gap-6 paragrah-text text-[#03071E] font-meduim text-[16px] items-center"
         >
-          <router-link :to="{ name: 'Home' }">Home</router-link>
-          <router-link :to="{ name: 'About' }">About</router-link>
-          <router-link :to="{ name: 'K12' }">K-12</router-link>
-          <router-link :to="{ name: 'Tertiary' }">Tertiary</router-link>
-          <router-link :to="{ name: 'Pricing' }">Pricing</router-link>
-          <router-link :to="{ name: 'Contact' }">Contact</router-link>
+          <router-link
+            class="hover:italic hover:underline hover:text-blue-500"
+            :to="{ name: 'Home' }"
+            >Home</router-link
+          >
+          <router-link
+            class="hover:italic hover:underline hover:text-blue-500"
+            :to="{ name: 'About' }"
+            >About</router-link
+          >
+          <router-link
+            class="hover:italic hover:underline hover:text-blue-500"
+            :to="{ name: 'Pricing' }"
+            >Pricing</router-link
+          >
+          <router-link
+            class="hover:italic hover:underline hover:text-blue-500"
+            :to="{ name: 'Contact' }"
+            >Contact</router-link
+          >
         </ul>
         <button class="hidden lg:flex primary-blue px-5 py-3 text-white bg-[#1C3FAA] rounded-[8px]">
           Request a Demo
@@ -50,8 +64,6 @@
         <ul class="flex flex-col space-y-2">
           <router-link :to="{ name: 'Home' }">Home</router-link>
           <router-link :to="{ name: 'About' }">About</router-link>
-          <router-link :to="{ name: 'K12' }">K-12</router-link>
-          <router-link :to="{ name: 'Tertiary' }">Tertiary</router-link>
           <router-link :to="{ name: 'Pricing' }">Pricing</router-link>
           <router-link :to="{ name: 'Contact' }">Contact</router-link>
         </ul>

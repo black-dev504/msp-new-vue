@@ -39,7 +39,7 @@
 
 <script>
 import Review from '@/components/Review.vue'
-import { reviewDetails } from '@/components/data'
+import { reviewDetails } from './data'
 export default {
   name: 'testimonialSection',
   components: {
@@ -49,23 +49,6 @@ export default {
     return {
       reviewDetails,
     }
-  },
-
-  Mounted() {
-    let scrollAmount = 0
-
-    scrollInterval = setInterval(() => {
-      const container = scrollContainer.value
-      if (!container) return
-
-      scrollAmount += 1
-      container.scrollLeft = scrollAmount
-
-      if (container.scrollLeft >= container.scrollWidth - container.clientWidth) {
-        scrollAmount = 0
-        container.scrollLeft = 0
-      }
-    }, 30)
   },
 }
 </script>

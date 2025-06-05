@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="items-center px-10 py-16 bg-white md:px-30 md:pt-30">
+    <section class="items-center px-10 py-10 bg-white md:px-20 md:pt-20">
       <div class="flex flex-col items-center text-center max-w-[1024px] mx-auto justify-center">
         <p class="font-paragraph text-[#4265D2] font-semibold">About us</p>
         <h1 class="text-4xl md:text-6xl mt-3 mb-6 font-heading text-[#040815] font-normal w-8/10">
@@ -24,7 +24,7 @@
       >
         <div class="items-center md:items-start">
           <h1
-            class="relative pt-3 pb-5 text-3xl font-normal text-center text-gray-900 md:text-left font-heading md:text-4xl lg:text-5xl"
+            class="relative pt-3 pb-5 text-2xl font-normal text-center text-gray-900 md:text-left font-heading md:text-4xl lg:text-5xl"
           >
             Our Journey
           </h1>
